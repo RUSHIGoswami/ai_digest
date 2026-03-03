@@ -1,6 +1,6 @@
 # 🤖 AI/ML Daily Digest
 
-> A self-hosted, zero-cost daily email service that sends you a curated, categorized AI/ML digest every morning — powered by Claude.
+> A self-hosted, zero-cost daily email service that sends you a curated, categorized AI/ML digest every morning — powered by Gemini.
 
 ---
 
@@ -84,7 +84,7 @@ Common IST times:
 ```bash
 pip install -r requirements.txt
 
-export ANTHROPIC_API_KEY="sk-ant-..."
+export GEMINI_API_KEY="sk-ant-..."
 export NEWS_API_KEY="your-newsapi-key"
 export SENDER_EMAIL="you@gmail.com"
 export RECIPIENT_EMAIL="you@gmail.com"
